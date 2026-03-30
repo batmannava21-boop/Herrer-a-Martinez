@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Herrería Martínez</title>
+  <style>
+    body {
+
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+    }
+    header {
+      background-color: black;
+      color: #fff;
+      padding: 20px;
+      text-align: center;
+    }
+    nav {
+      background-color: #254117;
+      padding: 10px;
+      text-align: center;
+    }
+    nav a {
+      color: #fff;
+      text-decoration: none;
+      margin: 0 10px;
+    }
+    section {
+      padding: 20px;
+    }
+    h2 {
+      color: #fff;
+    }
+    .servicios {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+    }
+    .servicio {
+      margin: 20px;
+      width: 300px;
+    }
+    .servicio img {
+      width: 100%;
+      height: 150px;
+      object-fit: cover;
+      border-radius: 10px;
+    }
+    footer {
+      background-color: #333;
+      color: #fff;
+      padding: 10px;
+      text-align: center;
+      clear: both;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Herrería Martínez</h1>
+    <p>Expertos en metalurgia</p>
+  </header>
+  <nav>
+    <a href="                   
+    <a href="#servicios">Servicios</a>
+    <a href="                       
+  </nav>
+  <section id="inicio">
+    <h2>Bienvenidos a Herrería Martínez</h2>
+    <p>Somos un negocio con años de experiencia en la fabricación y reparación de estructuras metálicas.</p>
+    <img src="herreria.jpg" alt="Herrería Martínez" width="150" height="150">
+  </section>
+  <section id="servicios">
+    <h2>Nuestros Servicios</h2>
+    <div class="servicios">
+      <div class="servicio">
+        <img src="estructura-metalica.jpg" alt="Estructura metálica">
+        <h3>Estructuras Metálicas</h3>
+        <p>Fabricación de estructuras metálicas para edificios y construcciones.</p>
+      </div>
+      <div class="servicio">
+        <img src="puertas-ventanas.jpg" alt="Puertas y ventanas">
+        <h3>Puertas y Ventanas</h3>
+        <p>Diseño y fabricación de puertas y ventanas metálicas.</p>
+      </div>
+      <div class="servicio">
+        <img src="reparacion-mantenimiento.jpg" alt="Reparación y mantenimiento">
+        <h3>Reparación y Mantenimiento</h3>
+        <p>Reparación y mantenimiento de estructuras metálicas.</p>
+      </div>
+    </div>
+  </section>
+ <div class="servicio">
+        <img
+src="herreriaartistica.jpg" alt="Herreria artistica" width="20" height="20">
+        <h3>Herreria Artistica</h3>
+        <p>Creacion depiezas funcionales y decorativas con alto valor estético.</p>
+      </div>
+    </div>
+  </section>
+  <section id="contacto">
+    <h2>Contacto</h2>
+    <p>Teléfono: 5588045692 </p>
+    <p>Dirección: Calle Miguel Hidalgo 30
+56640 San Gregorio Cuautzingo, Edo. Méx.
+México </p>
+    <p>Correo electrónico: herreriamartinez70@gmail.com </p>
+  </section>
+  <footer>
+    <p>&copy; 2026 Herrería Martínez</p>
+  </footer>
+</body>
+</html>
